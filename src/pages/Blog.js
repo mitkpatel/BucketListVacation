@@ -3,14 +3,14 @@ import React from 'react'
 
 export default function Blog() {
     return (
-        <div class="w-full my-12">
+        <div class="w-full py-36">
             <div class="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8">
                 <div class="bg-white w-full shadow rounded p-8">
                     <h1 class="md:text-3xl text-2xl font-bold text-gray-800">BucketLists Blog</h1>
                     <div class="grid grid-cols-1 gap-8 mt-6">
                         <div class="flex flex-col md:flex-row">
                             <div class="w-full md:w-6/12 rounded overflow-hidden">
-                                <img src={process.env.PUBLIC_URL + '/pic1.jpg'} />
+                                <img className='rounded-md shadow-lg' src={process.env.PUBLIC_URL + './img/pic1.jpg'} alt="blog1"/>
                             </div>
                             <div class="w-full md:w-6/12 mt-4 md:mt-0 md:ml-4">
                                 <h2 class="text-lg font-semibold leading-tight text-gray-800">Leh Ladakh</h2>
@@ -23,13 +23,12 @@ export default function Blog() {
                                     Zoji La and Tanglang La; splendid scenic drives in remote regions, and
                                     some little known gems such as the kaleidoscopic More Plains, Lamayuru, and
                                     the hypnotic Gata Loops. It is truly a road trip like no other!!</p>
-                                <a class="leading-normal pt-2 hover:underline text-blue-600" href="">Read more...</a>
+                                <a class="leading-normal pt-2 hover:underline text-blue-600" href="/">Read more...</a>
                             </div>
                         </div>
                         <div class="flex flex-col md:flex-row">
                             <div class="w-full md:w-6/12 rounded overflow-hidden">
-                            <img src={process.env.PUBLIC_URL + '/pic3.jpg'} />
-                            <img src={process.env.PUBLIC_URL + '/pic2.jpg'} />
+                            <img className='rounded-md shadow-lg' src={process.env.PUBLIC_URL + './img/pic2.jpg'} alt="blg2"/>
                             
                             </div>
                             <div class="w-full md:w-6/12 mt-4 md:mt-0 md:ml-4">

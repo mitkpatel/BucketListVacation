@@ -1,12 +1,10 @@
 import React from "react";
 import { ServerIcon, ExternalLinkIcon } from "@heroicons/react/solid";
 
-import { AiOutlineSearch } from "react-icons/ai";
 import beachVid from "../assets/beachVid.mp4";
 import HelpIcon from "@mui/icons-material/Help";
 import AddTaskIcon from "@mui/icons-material/AddTask";
 import FlightIcon from "@mui/icons-material/Flight";
-import StarIcon from "@mui/icons-material/Star";
 
 import bgImg from "../assets/kansas.jpeg";
 
@@ -48,7 +46,7 @@ const Hero = () => {
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow ">
                 <a
-                  href="/recommanded"
+                  href="/recommended"
                   className="inline-flex items-center justify-center shadow-2xl px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50 hover:text-indigo-800"
                 >
                   View Exclusive Trips

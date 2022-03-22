@@ -17,7 +17,7 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import Blog from './pages/Blog';
 import Team from './pages/Team';
-import Recommanded from './pages/Recommanded';
+import Recommended from './pages/Recommended';
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
         <Route path='/register' element={<Register/>} />
         <Route path='/blog' element={<Blog/>} />
         <Route path='/team' element={<Team/>} />
-        <Route path='/recommanded' element={<Recommanded/>} />
+        <Route path='/recommended' element={<Recommended/>} />
       </Routes>
 
     </div>
